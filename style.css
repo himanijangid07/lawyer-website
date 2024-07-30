@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -192,6 +194,11 @@
     cursor: pointer;
 }
 
+.btn {
+    transition: color 0.4s linear;
+    background-color: #3957ff;
+}
+
 .practice {
     margin-top: 200px;
     position: relative;
@@ -221,12 +228,110 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 30px;
 }
 
 .box {
     margin-top: 200px;
+    padding: 50px;
+    border: 1px solid rgb(185, 184, 184);
+    font-family: 'Roboto';
+}
+
+.box h2 {
+    color: rgb(37, 0, 81);
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
 }
 
 .box p {
     font-size: 16px;
+    font-weight: 400;
+    color: rgb(87, 102, 126);
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.box a {
+    text-decoration: none;
+    color: rgb(87, 102, 126);
+    font-family: 'Josefin sans';
+}
+
+.box a:hover {
+    color: #3957ff;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.about .img {
+    width: 50%;
+}
+
+.about .para {
+    width: 50%;
+    background-color: #3957ff;
+    position: relative;
+    height: 567px;
+}
+
+.para h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Josefin sans';
+    padding-top: 120px;
+    padding-left: 50px;
+}
+
+.para h4 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Josefin sans';
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.para h5 {
+    font-family: 'Roboto';
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 28px;
+}
+
+.para p {
+    font-family: 'Roboto';
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(185, 184, 184);
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.para button {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(17, 41, 87);
+    border: none;
+    font-size: 16px;
+    font-family: 'Josefin sans';
+    color: white;
+    cursor: pointer;
 }
