@@ -335,3 +335,215 @@
     color: white;
     cursor: pointer;
 }
+
+.form {
+    width: 750px;
+    height: 800px;
+    background-color: #3957ff;
+    margin: 200px auto;
+}
+
+.container h6 {
+    font-size: 16px;
+    color: white;
+    font-family: 'Josefin sans';
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 400;
+}
+
+.container h4 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Josefin sans';
+    color: white;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+.inputa {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.inputa input {
+    width: 250px;
+    height: 50px;
+}
+
+.inputb {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.inputb input, select {
+    width: 250px;
+    height: 50px;
+}
+
+#txt {
+    padding: 10px;
+    padding-left: 115px;
+    margin-top: 10px;
+}
+
+#txt textarea {
+    width: 520px;
+    height: 120px;
+}
+
+.form .button {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.button button {
+    width: 520px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(17, 41, 87);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Josefin sans';
+    cursor: pointer;
+}
+
+.inputa input::placeholder {
+    color: rgb(87, 102, 126);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.inputb input::placeholder {
+    color: rgb(87, 102, 126);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.inputb select {
+    color: rgb(87, 102, 126);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.inputb select option {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#txt textarea::placeholder {
+    color: rgb(87, 102, 126);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    align-items: flex-end;
+}
+
+.heads h6 {
+    color: #3957ff;
+    font-family: 'Josefin sans';
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.heads h4 {
+    font-size: 48px;
+    color: rgb(9, 44, 63);
+    font-family: 'Josefin sans';
+    font-weight: 600;
+    width: 700px;
+}
+
+.heads button {
+    margin-left: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: rgb(85, 84, 84);
+    cursor: pointer;
+}
+
+.heads button:hover {
+    color: #3957ff;
+}
+
+.accident {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}
+
+.parta {
+    position: relative;
+}
+
+.parta img {
+    z-index: -1;
+}
+
+.parta .content {
+    background-color: #f7f9ff;
+    top: 80%;
+    position: absolute;
+    width: 450px;
+    height: 150px;
+}
+
+.content h6 {
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Josefin sans';
+    color: #3957ff;
+}
+
+.content p {
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Josefin sans';
+}
+
+.partb {
+    position: relative;
+}
+
+.partb img {
+    z-index: -1;
+}
+
+.partb .content {
+    background-color: #f7f9ff;
+    top: 80%;
+    position: absolute;
+    width: 450px;
+    height: 150px;
+}
+
+.health {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}
+
+.insurance {
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+}

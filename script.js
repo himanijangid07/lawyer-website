@@ -19,3 +19,29 @@ document.onreadystatechange = function() {
         document.querySelector("body").style.visibility = "visible";
     }
 };
+
+function openAccident() {
+  let open = document.getElementById("accident");
+  let close = document.getElementById("health");
+  let close1 = document.getElementById("insurance");
+  close.style.display = "none";
+  close1.style.display = "none";
+}
+
+function openHealth() {
+  let open = document.getElementById("accident");
+  let close = document.getElementById("health");
+  let close1 = document.getElementById("insurance");
+  close1.style.display = "none";
+  open.style.display = "none";
+  close.style.display = "flex";
+}
+
+function openInsurance() {
+  let open = document.getElementById("accident");
+  let close = document.getElementById("health");
+  let close1 = document.getElementById("insurance");
+  close.style.display = "none";
+  open.style.display = "none";
+  close1.style.display = "flex";
+}
