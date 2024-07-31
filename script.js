@@ -26,6 +26,7 @@ function openAccident() {
   let close1 = document.getElementById("insurance");
   close.style.display = "none";
   close1.style.display = "none";
+  open.style.display = "flex";
 }
 
 function openHealth() {
