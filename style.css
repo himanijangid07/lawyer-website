@@ -27,7 +27,7 @@
 
 .loader-block {
     position: relative;
-    margin: 200px auto;
+    margin: 250px auto;
     width: 120px;
     height: 120px;
 }
@@ -700,13 +700,166 @@
     z-index: -1;
 }
 
-.date {
+#date1 #para1 {
     position: absolute;
-    top: 86%;
+    top: 51%;
     background-color: white;
     font-size: 14px;
     font-family: 'Josefin sans';
     padding: 20px;
     width: 350px;
     text-align: center;
+}
+
+#date2 #para2 {
+    position: absolute;
+    top: 51%;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Josefin sans';
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.intro {
+    font-family: 'Josefin sans';
+    padding: 20px;
+    background-color: #f7f9ff;
+    margin-top: -5px;
+}
+
+.intro h4 {
+    font-size: 28px;
+    line-height: 35px;
+    color: rgb(9, 44, 63);
+    width: 500px;
+}
+
+.intro h4:hover {
+    color: #3957ff;
+}
+
+.intro p {
+    color: gray;
+    padding-top: 20px;
+    width: 500px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-family: 'Roboto';
+}
+
+.intro a {
+    color: #3957ff;
+    text-decoration: none;
+}
+
+footer {
+    background-image: url(images/footer_bg.jpg);
+    background-position: center center;
+    display: flex;
+    padding: 50px;
+    color: rgb(228, 227, 227);
+    justify-content: space-around;
+    padding-top: 150px;
+    margin-top: 200px;
+    font-family: 'Roboto';
+}
+
+.first img {
+    padding-bottom: 30px;
+}
+
+.first h2{
+    padding-bottom: 30px;
+    color: rgb(85, 84, 84);
+}
+
+.first p {
+    width: 200px;
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: rgb(85, 84, 84);
+}
+
+.first h2 {
+    font-size: 28px;
+}
+
+.second p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.second ul {
+    list-style-type: none;
+}
+
+.second ul li {
+    padding-bottom: 20px;
+    color: rgb(85, 84, 84);
+}
+
+.third p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.third ul {
+    list-style-type: none;
+}
+
+.third ul li {
+    padding-bottom: 20px;
+    color: rgb(85, 84, 84);
+}
+
+.fourth h3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.fourth p {
+    color: rgb(85, 84, 84);
+    padding-bottom: 30px;
+}
+
+.fourth input {
+    height: 40px;
+    width: 300px;
+    background-color: #101720;
+    border: none;
+}
+
+.fourth input::placeholder {
+    padding: 10px;
+}
+
+.fourth button {
+    height: 40px;
+    width: 80px;
+    background: transparent;
+    border: none;
+    color: rgb(17, 41, 87);
+    cursor: pointer;
+}
+
+hr {
+    width: 80%;
+    background-color: rgb(85, 84, 84);
+    height: 0.5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url(images/footer_bg.jpg);
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto';
+}
+
+.footer .links a {
+    padding-left: 10px;
 }
