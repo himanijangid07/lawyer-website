@@ -207,9 +207,18 @@
 .practice h3 {
     color: #3957ff;
     font-family: 'Josefin sans';
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.practice h3::before {
+    content: '';
     position: absolute;
-    left: 9%;
-    top: 1%;
+    width: 75px;
+    height: 2px;
+    background: #3957ff;
+    top: 8%;
+    left: 7%;
 }
 
 .practice h5 {
@@ -291,8 +300,18 @@
     font-weight: 500;
     color: white;
     font-family: 'Josefin sans';
-    padding-top: 120px;
-    padding-left: 50px;
+    padding-top: 125px;
+    padding-left: 120px;
+}
+
+.para h6::before {
+    content: '';
+    background: white;
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    top: 23%;
+    left: 5%;
 }
 
 .para h4 {
@@ -341,15 +360,26 @@
     height: 800px;
     background-color: #3957ff;
     margin: 200px auto;
+    position: relative;
 }
 
 .container h6 {
     font-size: 16px;
     color: white;
     font-family: 'Josefin sans';
-    text-align: center;
     padding-top: 100px;
     font-weight: 400;
+    padding-left: 200px;
+}
+
+.container h6::before {
+    content: '';
+    background: white;
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    top: 13%;
+    left: 15%;
 }
 
 .container h4 {
@@ -449,6 +479,10 @@
     padding: 30px;
 }
 
+.work {
+    position: relative;
+}
+
 .heads {
     display: flex;
     justify-content: space-between;
@@ -462,6 +496,17 @@
     font-family: 'Josefin sans';
     font-size: 20px;
     padding-bottom: 20px;
+    padding-left: 100px;
+}
+
+.heads h6::before {
+    content: '';
+    background: #3957ff;
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    top: 1%;
+    left: 8%;
 }
 
 .heads h4 {
@@ -579,6 +624,7 @@
 
 .lawyers {
     margin-top: 200px;
+    position: relative;
 }
 
 .head h6 {
@@ -587,7 +633,17 @@
     font-size: 20px;
     padding-bottom: 20px;
     margin-top: 50px;
-    padding-left: 50px;
+    padding-left: 150px;
+}
+
+.head h6::before {
+    content: '';
+    background: #3957ff;
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    top: 1%;
+    left: 5%;
 }
 
 .head h4 {
@@ -646,7 +702,7 @@
     padding-top: 100px;
     padding-left: 250px;
     padding-right: 250px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 16px;
     font-family: 'Roboto';
     line-height: 30px;
@@ -664,6 +720,10 @@
     padding-bottom: 190px;
 }
 
+.blog {
+    position: relative;
+}
+
 .heady {
     margin-top: 200px;
 }
@@ -674,8 +734,18 @@
     font-size: 20px;
     padding-bottom: 20px;
     margin-top: 50px;
-    padding-left: 50px;
+    padding-left: 150px;
     font-weight: 400;
+}
+
+.heady h6::before {
+    content: '';
+    background: #3957ff;
+    width: 75px;
+    height: 2px;
+    position: absolute;
+    top: 1%;
+    left: 5%;
 }
 
 .heady h4 {
@@ -844,12 +914,6 @@ footer {
     cursor: pointer;
 }
 
-hr {
-    width: 80%;
-    background-color: rgb(85, 84, 84);
-    height: 0.5px;
-}
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -862,4 +926,11 @@ hr {
 
 .footer .links a {
     padding-left: 10px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
 }
