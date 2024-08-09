@@ -934,3 +934,20 @@ footer {
     bottom: 30px;
     z-index: 99;
 }
+
+.one {
+    background-image: url(images/hero2.png);
+}
+
+.about-head {
+    font-size: 70px;
+    padding: 180px;
+}
+
+.two {
+    margin-top: 30px;
+}
+
+.two h1{
+    font-size: 60px;
+}
